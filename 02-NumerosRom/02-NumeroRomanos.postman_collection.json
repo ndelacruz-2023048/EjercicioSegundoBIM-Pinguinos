@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "49962e93-0231-4536-9bae-1668b9e19796",
+		"name": "02-NumeroRomanos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37956955"
+	},
+	"item": [
+		{
+			"name": "NumeroRomanos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "numerosRomanos",
+							"value": "XIX",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3605/v1/app/numbersromans",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3605",
+					"path": [
+						"v1",
+						"app",
+						"numbersromans"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

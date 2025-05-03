@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "a77aa712-8a3b-48db-a91a-6513e6643753",
+		"name": "03-ConvesionTemperatura",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37956955"
+	},
+	"item": [
+		{
+			"name": "ConversacionTemperatura",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "valor",
+							"value": "152",
+							"type": "text"
+						},
+						{
+							"key": "unidad",
+							"value": "F",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/temperatura",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"temperatura"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
